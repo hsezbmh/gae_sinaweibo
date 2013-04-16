@@ -1,4 +1,4 @@
-application: you_app_name
+application: bmhsign
 version: 1
 runtime: python27
 api_version: 1
@@ -13,3 +13,7 @@ handlers:
   script: auth.app
 - url: /do/.*
   script: do.app
+- url: /localtest/.*
+  script: localtest.app
+- url: /cron/.*
+  script: cronjob.app

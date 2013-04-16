@@ -1,1 +1,3 @@
 *.pyc
+app.yaml
+localtest.py

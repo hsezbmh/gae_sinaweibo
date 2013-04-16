@@ -2,13 +2,11 @@
 
 from weibo import APIClient
 import webapp2
-import webbrowser
 from google.appengine.ext import db
-import urllib2
 
-APP_KEY = 'YOUR_APP_KEY'  # app key
-APP_SECRET = 'YOUR_APP_SECRET'  # app secret
-CALLBACK_URL = 'YOUR_CALLBACK_URL'  # callback url
+APP_KEY = 'APP_KEY'  # app key
+APP_SECRET = 'APP_SECRET'  # app secret
+CALLBACK_URL = 'CALLBACK_URL'  # callback url
 
 
 

@@ -1,0 +1,4 @@
+cron:
+- description: auto send weibo
+  url: /cron/autosend
+  schedule: every 1 minutes
